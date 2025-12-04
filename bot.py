@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 from pyrogram import Client, filters, enums
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from motor.motor_asyncio import AsyncIOMotorClient
-from fuzzywuzzy import fuzz, process
+from rapidfuzz import fuzz, process
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from aiohttp import web
 import logging
